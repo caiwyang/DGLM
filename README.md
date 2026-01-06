@@ -136,3 +136,5 @@ model.save_pretrained("./merged_model")
 - `save_path` and `log_path` will be created automatically.
 
 ---
+## 10. Thanks
+thanks for paper "PandaGPT: One Model To Instruction-Follow Them All"
