@@ -1,0 +1,28 @@
+[
+  {
+        "sentence": "There are several websites that you can find rare or out of print books.  A couple would be alibris.com or abebooks.com.  These sites list books by booksellers all over the country and some internationally.",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "How do I find an out of print book?"
+            },
+            {
+                "from": "gpt",
+                "value": "You can find an out of print book by visiting websites like alibris.com or abebooks.com, which list books from booksellers both nationally and internationally."
+            }
+        ]
+    },
+    {
+        "sentence": "CCM Magazine or their online website will give you information on up and coming artists in the Christian Music field.",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What are good sources to find out about new gospel artists?"
+            },
+            {
+                "from": "gpt",
+                "value": "Good sources to find out about new gospel artists include CCM Magazine and their online website."
+            }
+        ]
+    }
+]

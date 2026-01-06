@@ -1,0 +1,59 @@
+[
+  {
+    "sentence": "Xinhua News Agency , Shanghai , August 31st , by reporter Jierong Zhou",
+    "conversation": [
+      {
+        "from": "human",
+        "value": "This is NER task. The sentence is from ACE2004, which has entity types and their definitions as follows: geographical social political: This category includes entities related to geography, society, and politics, such as countries, regions, cities, social groups, and political organizations. These entities typically involve interactions between geographic locations and social structures.\n\norganization: This refers to various types of organizations, including companies, institutions, non-profit organizations, and government agencies. These entities usually have a defined structure and function, and they are involved in areas such as business, education, and politics.\n\nperson: This category refers to specific individuals, including celebrities, public figures, and ordinary people. These entities typically involve information about personal names, occupations, achievements, etc.\n\nlocation: This refers to specific geographic locations, such as cities, countries, mountains, rivers, etc. These entities are usually used to describe physical spaces and geographical features.\n\nfacility: This refers to specific facilities or buildings, such as schools, hospitals, airports, factories, etc. These entities usually involve specific locations that provide services or functions.\n\nvehicle: This refers to various types of vehicles, including cars, airplanes, ships, etc. These entities are usually related to transportation and mobility.\n\nweapon: This refers to various types of weapons, including firearms, bombs, missiles, etc. These entities are usually involved in military and security fields.  \n\n\n\nPlease extract from the input the entities that match the schema definition, whose entity types are based on the above. Return an empty list if the entity type does not exist. Please respond in the format of a JSON string, as '{\"person\": [\"Robert Allenby\", \"Allenby\", \"Miguel Angel Martin\"], \"organization\": [], \"else\": [], \"location\": [\"Australia\", \"Spain\"]}'"
+      },
+      {
+        "from": "gpt",
+        "value": {
+          "geographical social political": [
+            "Shanghai"
+          ],
+          "organization": [
+            "Xinhua News Agency"
+          ],
+          "person": [
+            "reporter",
+            "reporter Jierong Zhou"
+          ],
+          "location": [],
+          "facility": [],
+          "vehicle": [],
+          "weapon": []
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "Malaysian vice - prime minister Anwar ended a visit to China this afternoon , and left Shanghai for Tokyo .",
+    "conversation": [
+      {
+        "from": "human",
+        "value": "This is NER task. The sentence is from ACE2004, which has entity types and their definitions as follows: geographical social political: This category includes entities related to geography, society, and politics, such as countries, regions, cities, social groups, and political organizations. These entities typically involve interactions between geographic locations and social structures.\n\norganization: This refers to various types of organizations, including companies, institutions, non-profit organizations, and government agencies. These entities usually have a defined structure and function, and they are involved in areas such as business, education, and politics.\n\nperson: This category refers to specific individuals, including celebrities, public figures, and ordinary people. These entities typically involve information about personal names, occupations, achievements, etc.\n\nlocation: This refers to specific geographic locations, such as cities, countries, mountains, rivers, etc. These entities are usually used to describe physical spaces and geographical features.\n\nfacility: This refers to specific facilities or buildings, such as schools, hospitals, airports, factories, etc. These entities usually involve specific locations that provide services or functions.\n\nvehicle: This refers to various types of vehicles, including cars, airplanes, ships, etc. These entities are usually related to transportation and mobility.\n\nweapon: This refers to various types of weapons, including firearms, bombs, missiles, etc. These entities are usually involved in military and security fields.  \n\n\n\nPlease extract from the input the entities that match the schema definition, whose entity types are based on the above. Return an empty list if the entity type does not exist. Please respond in the format of a JSON string, as '{\"person\": [\"Robert Allenby\", \"Allenby\", \"Miguel Angel Martin\"], \"organization\": [], \"else\": [], \"location\": [\"Australia\", \"Spain\"]}'"
+      },
+      {
+        "from": "gpt",
+        "value": {
+          "geographical social political": [
+            "Malaysian",
+            "China",
+            "Shanghai",
+            "Tokyo"
+          ],
+          "organization": [],
+          "person": [
+            "Malaysian vice - prime minister",
+            "Malaysian vice - prime minister Anwar"
+          ],
+          "location": [],
+          "facility": [],
+          "vehicle": [],
+          "weapon": []
+        }
+      }
+    ]
+  }
+]
